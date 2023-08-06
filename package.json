@@ -1,0 +1,37 @@
+{
+  "name": "openai-proxy",
+  "version": "0.3.6",
+  "description": "openai-proxy is a solution provided for Chinese users to address the issue of being unable to make requests to the OpenAI API.",
+  "author": "",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "changelog": "standard-changelog"
+  },
+  "dependencies": {
+    "@upstash/ratelimit": "^0.4.3",
+    "ai": "^2.1.31",
+    "googlebard": "^1.0.7",
+    "next": "latest",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@semantic-release/changelog": "6.0.3",
+    "@semantic-release/exec": "6.0.3",
+    "@semantic-release/git": "10.0.1",
+    "@semantic-release/npm": "10.0.4",
+    "@types/node": "^20.4.6",
+    "@types/react": "^18.2.18",
+    "@types/react-dom": "^18.2.7",
+    "@vercel/analytics": "^1.0.1",
+    "conventional-changelog-conventionalcommits": "6.1.0",
+    "encoding": "^0.1.13",
+    "semantic-release": "21.0.7",
+    "standard-changelog": "^3.0.0",
+    "typescript": "^5.0.4"
+  }
+}
